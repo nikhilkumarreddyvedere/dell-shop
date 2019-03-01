@@ -13,6 +13,30 @@
 
   <style>
   
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+     .spec{
+          width: auto;
+      }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+     .spec{
+          width: auto;
+      }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     .spec{
+          width: auto;
+      }
+    
+} 
+  
   .icon-ui-loading {
     display: inline-block;
     vertical-align: middle;
@@ -31,6 +55,10 @@
     padding-bottom: 10px;
 }
   @media only screen and (min-width: 768px) {
+      
+      .spec{
+          width: 45%;
+      }
       .customLegendheading legend {
     font-size: 42px;
     font-family: 'roboto',Arial,Helvetica,sans-serif;
@@ -47,6 +75,10 @@
       
   }
   @media only screen and (max-width: 600px) {
+      
+       .spec{
+          width: auto;
+      }
  .customLegendheading legend {
     font-size: 16.5px;
     font-family: 'roboto',Arial,Helvetica,sans-serif;
@@ -181,9 +213,7 @@ span {
 <small id="techspec3">4GB, DDR4, 2400MHz; up to 8GB</small>
 <small id="techspec4">32GB eMMC</small>
     
-    <div style="
-    width: 45%;
-"><h5 style="
+    <div class="spec"><h5 style="
     font-weight: bold;
     color: #007db8 !important;
     border-bottom: 1px solid black;
